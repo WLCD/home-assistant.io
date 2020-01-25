@@ -88,6 +88,8 @@ Example with multiple VMs and no containers:
 ```yaml
 proxmoxve:
   - host: IP_ADDRESS
+    #Needed when following the instructions below
+    realm : pve 
     username: USERNAME
     password: PASSWORD
     nodes:
